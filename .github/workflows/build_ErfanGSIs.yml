@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://roms.minovo.ml/Firmware/2021/21.3.10/sasd65S45SDE98nf/minovo_lavender_21.3.10_10.0_6254e3e691.zip
-  ROM_NAME: MIUId
+  ROM_URL: https://dl.mi-globe.com/download/mi-globe.com_v12_ginkgo_21.8.4_cfg-velgbaw.zip
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MI-NOVO
+  ZIP_NAME: MIUI
 jobs:
   build:
     runs-on: ubuntu-latest
